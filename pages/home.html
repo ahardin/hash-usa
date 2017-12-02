@@ -3,6 +3,15 @@
 		font-size: 10px;
 		opacity: 0.6;
 	}
+	#miningPorts > .stats{
+		width: auto !important;
+		margin-right: 70px;
+		margin-left: 15px;
+		display: inline-block;
+	}
+	#miningPorts > .stats:last-child{
+		margin-right: 0;
+	}
 	#networkLastReward{
 		text-transform: uppercase;
 	}
@@ -84,7 +93,7 @@
 	<div><i class="fa fa-cloud"></i> Mining Pool Address: <span id="miningPoolHost"></span></div>
 </div>
 
-<h4>Mining Ports</h4>
+<h4>Ports</h4>
 <div id="miningPorts" class="row">
 	<div class="stats">
 		<div><i class="fa fa-tachometer"></i> Port: <span class="miningPort"></span></div>
