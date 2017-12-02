@@ -261,7 +261,12 @@
 		}
 	};
 
+	document.getElementById('miningPoolHost').textContent = poolHost;
+
 	var lastPortsJson = '';
+	var $miningPorts = $('#miningPorts');
+	var miningPortTemplate = $miningPorts.html();
+	$miningPorts.empty();
 
 	$('#networkLastBlockFound,#poolLastBlockFound,#yourLastShare,#marketLastUpdated').timeago();
 
