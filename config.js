@@ -1,4 +1,4 @@
-var api = "http://mine.hashusa.win:8117";
+var api = "http://api.hashusa.win:8080";
 
 var coinUnits = 100;
 var coinDecimalPlaces = 2;
