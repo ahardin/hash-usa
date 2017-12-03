@@ -55,28 +55,43 @@
 	<!-- Description or information about this pool -->
 	<div class="container">
 		<div class="row mb-20">
-			<h1 class="mb-20">Getting started</h1>
+			<h1 class="mb-20">New to mining?</h1>
 			<div class="col-md-4">
 				<p><small class="text-muted">Step 1</small></p>
-				<h4>Download a miner</h4>
-				<p>First of all you'll need to download a mining program in order to allow your computer to mine Electroneum.</p>
-				<a href="https://downloads.electroneum.com/" target="_blank" class="btn btn-primary">View downloads</a>
+				<h4>Create Wallet</h4>
+				<p>The wallet is where your Electroneum is stored. Use <strong>Google Chrome</strong> to create your wallet.</p>
+				<a href="https://downloads.electroneum.com/offline_paper_electroneum_walletV1.5.html" target="_blank" class="btn btn-primary">Create Wallet</a>
 			</div>
 			<div class="col-md-4">
 				<p><small class="text-muted">Step 2</small></p>
-				<h4>Connect to a mining pool</h4>
-				<p>Once you've chosen a miner you need to connect it to this mining pool.</p>
-				<a href="https://downloads.electroneum.com/" target="_blank" class="btn btn-primary">View instructions</a>
+				<h4>Download Miner</h4>
+				<p>Sumo Easy Miner is great for new miners.</p>
+				<a href="https://github.com/sumoprojects/SumoEasyMiner/releases/tag/v0.1-b1.3" target="_blank" class="btn btn-primary">Download Miner</a>
 			</div>
 			<div class="col-md-4">
 				<p><small class="text-muted">Step 3</small></p>
 				<h4>Earn Electroneum</h4>
-				<p>After you've connected to the mining pool simply sit back and watch the Electroneum getting mined.</p>
-				<a href="https://downloads.electroneum.com/" target="_blank" class="btn btn-primary">Advanced options</a>
+				<p>After Sumo Easy Miner is installed, click "Add Pool" in the upper right and enter the settings shown below as well as your public wallet address. Then click the "Start" button next to the pool you just added.</p>
 			</div>
 		</div>
 	</div>
 </div>
+
+<h3>Mining Pool Connection Details</h3>
+<div class="stats">
+	<div><i class="fa fa-cloud"></i> Mining Pool Address: <span id="miningPoolHost"></span></div>
+</div>
+
+<h4>Mining Ports</h4>
+<div id="miningPorts" class="row">
+	<div class="stats">
+		<div><i class="fa fa-tachometer"></i> Port: <span class="miningPort"></span></div>
+		<div><i class="fa fa-unlock-alt"></i> Starting Difficulty: <span class="miningPortDiff"></span></div>
+		<div><i class="fa fa-question"></i> Description: <span class="miningPortDesc"></span></div>
+	</div>
+</div>
+
+<hr>
 
 
 <!-- <div class="yourStats table-responsive">
@@ -101,8 +116,6 @@
 		</tbody>
 	</table>
 </div> -->
-
-<hr>
 
 
 
@@ -189,20 +202,6 @@
 	</table>
 </div>
 
-
-<h3>Mining Pool Connection Details</h3>
-<div class="stats">
-	<div><i class="fa fa-cloud"></i> Mining Pool Address: <span id="miningPoolHost"></span></div>
-</div>
-
-<h4>Mining Ports</h4>
-<div id="miningPorts" class="row">
-	<div class="stats">
-		<div><i class="fa fa-tachometer"></i> Port: <span class="miningPort"></span></div>
-		<div><i class="fa fa-unlock-alt"></i> Starting Difficulty: <span class="miningPortDiff"></span></div>
-		<div><i class="fa fa-question"></i> Description: <span class="miningPortDesc"></span></div>
-	</div>
-</div>
 
 <hr>
 
